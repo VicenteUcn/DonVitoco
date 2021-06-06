@@ -20,4 +20,6 @@ from comida.views import *
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index),
+    path('menu', menu),
+    path('inicio', index),
 ]
