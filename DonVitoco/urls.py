@@ -22,4 +22,7 @@ urlpatterns = [
     path('', index),
     path('menu', menu),
     path('inicio', index),
+    path('login', login),
+    path('register', register),
+    
 ]
